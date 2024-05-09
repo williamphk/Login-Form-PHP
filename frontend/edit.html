@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Change Profile</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <h1><a href="home.html">Logo</a></h1>
+      </div>
+      <div class="right-link">
+        <a href="#">Change Profile</a>
+        <a href="logout.php">
+          <button class="btn">Logout</button>
+        </a>
+      </div>
+    </nav>
+    <main>
+      <div class="container">
+        <div class="box form-box">
+          <form action="" method="post">
+            <header>Change Profile</header>
+            <div class="field input">
+              <label for="username">Username</label>
+              <input type="text" name="username" id="username" required />
+            </div>
+            <div class="field input">
+              <label for="age">Age</label>
+              <input type="text" name="age" id="age" required />
+            </div>
+            <div class="field input">
+              <label for="email">Email</label>
+              <input type="text" name="email" id="email" required />
+            </div>
+            <div class="field">
+              <input type="submit" class="btn" name="submit" value="Update" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

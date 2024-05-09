@@ -15,7 +15,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 90vh;
 }
 
 .box {
@@ -94,6 +94,11 @@ nav {
 .logo {
   font-size: 25px;
   font-weight: 900;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #333;
 }
 
 .right-links a {
